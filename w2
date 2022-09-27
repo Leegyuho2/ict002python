@@ -1,0 +1,4 @@
+word = input("알파벳을 입력하세요 :")
+message = f"당신이 입력한 문자는 {word}는 대문자입니다." if word ==  word.upper() else f"당신이 입력한 문자는 {word}는 소문자입니다."
+
+print (message)
